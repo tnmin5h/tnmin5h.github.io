@@ -1,0 +1,40 @@
+---
+layout: post
+title: 루비&지킬 설치
+date:   2022-03-18 00:29:06 +0900
+categories: homework
+---
+
+# 루비 설치
+
+Rubyinstaller를 사용하여 루비를 설치한다.
+
+
+
+# 지킬 설치
+
+[Jekyll 사이트](https://jekyllrb-ko.github.io/)에 접속하면 빠른 시작 방법을 찾아볼 수 있다.
+
+그 방법을 따라 차례대로 진행하면 지킬 설치가 완료된다.
+
+
+```
+[빠른 시작 방법]
+
+gem install bundler jekyll
+
+jekyll new my-awesome-site
+
+cd my-awesome-site
+
+bundle exec jekyll serve
+```
+
+
+
+# 중간에 webrick 오류가 발생하는 경우
+
+```
+bundle add webrick
+```
+위와 같은 코드를 입력한 후 그 전에 입력했던 코드를 다시 쳐보면 오류가 해결되는 것을 확인 할 수 있다.
